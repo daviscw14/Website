@@ -1,8 +1,13 @@
+output_dir: "."
 name: "my-website"
 navbar:
   title: "My Website"
   left:
     - text: "Home"
-      href: index.md
+      href: index.html
     - text: "About"
-      href: about.md
+      href: about.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
