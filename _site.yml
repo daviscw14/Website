@@ -1,9 +1,13 @@
-name: "my-website"
+name: "Test"
 output_dir: "docs"
 navbar:
-  title: "My Website"
+  title: "Lecy's Class"
   left:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
