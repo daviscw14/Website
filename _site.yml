@@ -4,10 +4,20 @@ navbar:
   title: "Lecy's Class"
   left:
     - text: "Home"
+      icon: fa-line-chart
       href: index.html
     - text: "About"
       href: about.html
+    - text: "More"
+      menu: 
+        - text: "Summary"
+          href: research.html
+        - text: "Publications"
+          href: publications.html
 output:
   html_document:
-    theme: cosmo
+    theme: yeti
     highlight: textmate
+    code_folding: hide
+    df_print: paged
+    css: styles.css

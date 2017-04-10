@@ -1,5 +1,20 @@
 ---
 title: "My Website"
+output:
+  html_document:
+    includes:
+      after_body: include_footer.html
 ---
 
 Hello, Website!
+
+
+This is a plot I am creating to text
+```{r }
+x <- 1:100
+y <- rnorm(100, 20, 5)
+plot(x, y)
+```
+
+Afterwards, here is a paragraph of some bullshit. A man accused of making at least eight threats against Jewish community centers, Jewish schools, a Jewish museum and the Anti-Defamation League was arrested by the FBI in St. Louis, Missouri, this morning, though the man is not believed to be the main suspect behind this year's rash of bomb threats, two law enforcement officials told ABC News.
+
